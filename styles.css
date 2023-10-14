@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./fondo.png);
+    width:100% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.peso, .longuitud ,.temperatura,.tiempo{
+    width: 420px;
+    background: rgba(252, 240, 184, 0.438);
+    border: 2px solid rgba(243, 237, 184, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(250, 255, 209, 0.623);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin: 30px;
+}
+select,option,button,label{
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+    color: black;
+}
+h3 {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 25px;
+    color: rgb(175, 5, 39);
+}
+h1 {
+    font-family: 'Rowdies', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #fa0036;
+    text-shadow: 2px 2px #fff;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+p {
+    margin: 10px;
+    background-color: rgba(127, 255, 212, 0.425);
+    border-radius: 10px;
+    color: black;
+    font-family: 'Gabarito', sans-serif;
+    font-size: 20px;
+
+}
